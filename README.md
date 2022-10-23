@@ -8,6 +8,17 @@ ES2015 이전의 코드문법이 많이 적용된 문법입니다.
 
 ---
 
+### mysql 설치 https://goddaehee.tistory.com/277
+
+```
+mysql -u root -p
+CREATE DATABASE my_db default CHARACTER SET UTF8;
+SHOW DATABASES;
+
+```
+
+https://futurists.tistory.com/11
+
 ### install
 
 ```shell

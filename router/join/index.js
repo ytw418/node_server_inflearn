@@ -8,12 +8,12 @@ var LocalStrategy = require('passport-local').Strategy
 
 // DATABASE SETTING
 var connection = mysql.createConnection({
-	host : 'localhost',
-	port : 3306,
-	user : 'root',
-	password : 'asdf1234',
-	database : 'jsman'
-})
+	host: "localhost",
+	port: 4000,
+	user: "root",
+	password: "trgt2795",
+	database: "study_db",
+});
 connection.connect()
 
 router.get('/', function(req,res) {
